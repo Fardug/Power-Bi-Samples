@@ -1,0 +1,88 @@
+table reglas
+	lineageTag: 63217bf8-8942-49aa-857e-4ce0d3fbfaf5
+
+	column antecedente
+		dataType: string
+		lineageTag: 4c2b487f-04ce-4f7c-a9fa-e70b8f33fe83
+		summarizeBy: none
+		sourceColumn: antecedente
+
+		annotation SummarizationSetBy = Automatic
+
+	column consecuente
+		dataType: string
+		lineageTag: cfe9287f-90fe-4865-92ed-364d6f791ef2
+		summarizeBy: none
+		sourceColumn: consecuente
+
+		annotation SummarizationSetBy = Automatic
+
+	column soporte_a
+		dataType: double
+		lineageTag: 84c64ba0-6810-4e28-bf30-8b75ff066ea4
+		summarizeBy: sum
+		sourceColumn: soporte_a
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column confianza
+		dataType: double
+		lineageTag: 8c4b5e4d-fadf-46f9-84c1-7b9565b0fba4
+		summarizeBy: sum
+		sourceColumn: confianza
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column lift
+		dataType: double
+		lineageTag: 173dc276-9dce-4a13-a24d-7c7635527b02
+		summarizeBy: sum
+		sourceColumn: lift
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column id_producto_a
+		dataType: int64
+		formatString: 0
+		lineageTag: c533dae8-2f9e-4479-99a4-73ec572c7969
+		summarizeBy: sum
+		sourceColumn: id_producto_a
+
+		annotation SummarizationSetBy = Automatic
+
+	column id_seccion_a
+		dataType: int64
+		formatString: 0
+		lineageTag: 6fdffb6f-7420-4953-a4c5-4a2385e1cd7b
+		summarizeBy: none
+		sourceColumn: id_seccion_a
+
+		annotation SummarizationSetBy = Automatic
+
+	column id_departamento_a
+		dataType: int64
+		formatString: 0
+		lineageTag: fa081838-845c-46d2-87fe-c1d7c8b16578
+		summarizeBy: sum
+		sourceColumn: id_departamento_a
+
+		annotation SummarizationSetBy = Automatic
+
+	partition reglas = m
+		mode: import
+		source =
+				let
+				    Origen = Csv.Document(File.Contents("C:\Users\LENOVO\Documents\sanoyfresco\reglas.csv"),[Delimiter=";", Columns=8, Encoding=65001, QuoteStyle=QuoteStyle.None]),
+				    #"Encabezados promovidos" = Table.PromoteHeaders(Origen, [PromoteAllScalars=true]),
+				    #"Tipo cambiado" = Table.TransformColumnTypes(#"Encabezados promovidos",{{"antecedente", type text}, {"consecuente", type text}, {"soporte_a", type number}, {"confianza", type number}, {"lift", type number}, {"id_producto_a", Int64.Type}, {"id_seccion_a", Int64.Type}, {"id_departamento_a", Int64.Type}})
+				in
+				    #"Tipo cambiado"
+
+	annotation PBI_ResultType = Table
+

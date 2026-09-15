@@ -1,0 +1,44 @@
+table Secciones
+	lineageTag: 3fa26a4f-3c2f-41af-b01c-9e03e15d4baa
+
+	column id_seccion
+		dataType: int64
+		formatString: 0
+		lineageTag: 5be03850-c01d-4ae4-a4f2-2dec331b32c8
+		summarizeBy: none
+		sourceColumn: id_seccion
+
+		annotation SummarizationSetBy = Automatic
+
+	column nombre_seccion
+		dataType: string
+		lineageTag: 096ab9f2-863f-49be-817a-3e8b6d9f598e
+		summarizeBy: none
+		sourceColumn: nombre_seccion
+
+		annotation SummarizationSetBy = Automatic
+
+	column imagen
+		dataType: string
+		lineageTag: abc18e01-e16a-41be-b488-cf8ac3b2955f
+		dataCategory: ImageUrl
+		summarizeBy: none
+		sourceColumn: imagen
+
+		annotation SummarizationSetBy = Automatic
+
+	partition Secciones = m
+		mode: import
+		source =
+				let
+				    Origen = Excel.Workbook(File.Contents("C:\Users\LENOVO\Documents\sanoyfresco\Media\secciones.xlsx"), null, true),
+				    Hoja1_Sheet = Origen{[Item="Hoja1",Kind="Sheet"]}[Data],
+				    #"Encabezados promovidos" = Table.PromoteHeaders(Hoja1_Sheet, [PromoteAllScalars=true]),
+				    #"Tipo cambiado" = Table.TransformColumnTypes(#"Encabezados promovidos",{{"id_seccion", Int64.Type}, {"nombre_seccion", type text}, {"imagen", type text}})
+				in
+				    #"Tipo cambiado"
+
+	changedProperty = Name
+
+	annotation PBI_ResultType = Table
+

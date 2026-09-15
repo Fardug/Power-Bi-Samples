@@ -1,0 +1,23 @@
+model Model
+	culture: es-CO
+	defaultPowerBIDataSourceVersion: powerBI_V3
+	sourceQueryCulture: es-CO
+	valueFilterBehavior: independent
+	dataAccessOptions
+		legacyRedirects
+		returnErrorValuesAsNull
+
+annotation __PBI_TimeIntelligenceEnabled = 1
+
+annotation PBI_QueryOrder = ["tickets","Secciones","reglas"]
+
+annotation PBI_ProTooling = ["DevMode"]
+
+ref table tickets
+ref table DateTableTemplate_82a4063f-94d9-49b9-8a6a-ea981c83ba50
+ref table LocalDateTable_ac685377-336f-4f41-b10a-80f6c7144865
+ref table Secciones
+ref table reglas
+
+ref cultureInfo es-CO
+

@@ -1,0 +1,2699 @@
+cultureInfo es-CO
+
+	linguisticMetadata =
+			{
+			  "Version": "4.1.0",
+			  "Language": "en-US",
+			  "Entities": {
+			    "ticket": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "tickets"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ticket": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "coupon": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "permit": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "voucher": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "receipt": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "marker": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "sticker": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.466
+			          }
+			        },
+			        {
+			          "label": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        },
+			        {
+			          "tag": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        },
+			        {
+			          "tab": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        },
+			        {
+			          "docket": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.452
+			          }
+			        }
+			      ]
+			    },
+			    "ticket.id_pedido": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "tickets",
+			          "ConceptualProperty": "id_pedido"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "id pedido": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "id_pedido": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "identification pedido": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identity pedido": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identifier pedido": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "credential pedido": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "ticket.id_cliente": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "tickets",
+			          "ConceptualProperty": "id_cliente"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "id cliente": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "id_cliente": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "identification cliente": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identity cliente": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identifier cliente": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "credential cliente": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "ticket.fecha": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "tickets",
+			          "ConceptualProperty": "fecha"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "fecha": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "date": {
+			            "State": "Generated",
+			            "Weight": 0.7
+			          }
+			        }
+			      ],
+			      "SemanticType": "Time"
+			    },
+			    "ticket.fecha.jerarquía_de_fecha": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "tickets",
+			          "VariationSource": "fecha",
+			          "VariationSet": "Variación",
+			          "Hierarchy": "Jerarquía de fechas"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "jerarquía de fecha": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "ticket.fecha.año": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "tickets",
+			          "VariationSource": "fecha",
+			          "VariationSet": "Variación",
+			          "Hierarchy": "Jerarquía de fechas",
+			          "HierarchyLevel": "Año"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "año": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "fecha año": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "ticket.fecha.trimestre": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "tickets",
+			          "VariationSource": "fecha",
+			          "VariationSet": "Variación",
+			          "Hierarchy": "Jerarquía de fechas",
+			          "HierarchyLevel": "Trimestre"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "trimestre": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "fecha trimestre": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "ticket.fecha.me": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "tickets",
+			          "VariationSource": "fecha",
+			          "VariationSet": "Variación",
+			          "Hierarchy": "Jerarquía de fechas",
+			          "HierarchyLevel": "Mes"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "me": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "fecha me": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "ticket.fecha.día": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "tickets",
+			          "VariationSource": "fecha",
+			          "VariationSet": "Variación",
+			          "Hierarchy": "Jerarquía de fechas",
+			          "HierarchyLevel": "Día"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "día": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "fecha día": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "ticket.hora": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "tickets",
+			          "ConceptualProperty": "hora"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "hora": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "ticket.id_departamento": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "tickets",
+			          "ConceptualProperty": "id_departamento"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "id departamento": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "id_departamento": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "identification departamento": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identity departamento": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identifier departamento": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "credential departamento": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "ticket.id_seccion": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "tickets",
+			          "ConceptualProperty": "id_seccion"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "id seccion": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "id_seccion": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "identification seccion": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identity seccion": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identifier seccion": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "credential seccion": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "ticket.id_producto": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "tickets",
+			          "ConceptualProperty": "id_producto"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "id producto": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "id_producto": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "identification producto": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identity producto": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identifier producto": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "credential producto": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "ticket.nombre_producto": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "tickets",
+			          "ConceptualProperty": "nombre_producto"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "nombre producto": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "nombre_producto": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "Producto": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "ticket.precio_unitario": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "tickets",
+			          "ConceptualProperty": "precio_unitario"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "precio unitario": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "precio_unitario": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "ticket.cantidad": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "tickets",
+			          "ConceptualProperty": "cantidad"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "cantidad": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "ticket.precio_total": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "tickets",
+			          "ConceptualProperty": "precio_total"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "precio total": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "precio_total": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "precio aggregate": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        },
+			        {
+			          "precio overall": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.727
+			          }
+			        }
+			      ]
+			    },
+			    "ticket.nombre_dia": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "tickets",
+			          "ConceptualProperty": "Nombre_dia"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "nombre dia": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Nombre_dia": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "ticket.PR_unitario": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "tickets",
+			          "ConceptualProperty": "PR_unitario"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "PR unitario": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "PR_unitario": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "ticket.ticket_medio_pedido": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "tickets",
+			          "ConceptualProperty": "Ticket Medio Pedido"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ticket medio pedido": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "ticket.ticket_medio_por_cliente": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "tickets",
+			          "ConceptualProperty": "Ticket medio por cliente"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "ticket medio por cliente": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "ticket.promedio_de_recuento_de_id_pedido_por_id_producto": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "tickets",
+			          "ConceptualProperty": "Promedio de Recuento de id_pedido por id_producto"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "promedio de recuento de id_pedido por id_producto": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "ticket.promedio_de_recuento_de_id_pedido_por_cantidad": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "tickets",
+			          "ConceptualProperty": "Promedio de Recuento de id_pedido por cantidad"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "promedio de recuento de id_pedido por cantidad": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "ticket.promedio_de_recuento_de_id_producto_por_id_pedido": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "tickets",
+			          "ConceptualProperty": "Promedio de Recuento de id_producto por id_pedido"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "promedio de recuento de id_producto por id_pedido": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "seccione": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Secciones"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "seccione": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "seccione.id_seccion": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Secciones",
+			          "ConceptualProperty": "id_seccion"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "id seccion": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "id_seccion": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "identification seccion": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identity seccion": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "identifier seccion": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.6
+			          }
+			        },
+			        {
+			          "credential seccion": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.582
+			          }
+			        }
+			      ]
+			    },
+			    "seccione.nombre_seccion": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Secciones",
+			          "ConceptualProperty": "nombre_seccion"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "nombre seccion": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "nombre_seccion": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "seccione.imagen": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "Secciones",
+			          "ConceptualProperty": "imagen"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "imagen": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "Seccion": {
+			            "State": "Suggested",
+			            "Source": {
+			              "Type": "External",
+			              "Agent": "PowerBI.VisualColumnRename"
+			            },
+			            "Weight": 0.9
+			          }
+			        }
+			      ]
+			    },
+			    "regla": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "reglas"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "regla": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "regla.antecedente": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "reglas",
+			          "ConceptualProperty": "antecedente"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "antecedente": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "regla.consecuente": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "reglas",
+			          "ConceptualProperty": "consecuente"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "consecuente": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "regla.soporte_a": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "reglas",
+			          "ConceptualProperty": "soporte_a"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "soporte a": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "soporte_a": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        }
+			      ]
+			    },
+			    "regla.confianza": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "reglas",
+			          "ConceptualProperty": "confianza"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "confianza": {
+			            "State": "Generated"
+			          }
+			        }
+			      ]
+			    },
+			    "regla.lift": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "reglas",
+			          "ConceptualProperty": "lift"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "lift": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "revitalization": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "encouragement": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.491
+			          }
+			        },
+			        {
+			          "boost": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "kick": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "buzz": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        },
+			        {
+			          "tonic": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.476
+			          }
+			        }
+			      ]
+			    },
+			    "regla.id_producto_a": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "reglas",
+			          "ConceptualProperty": "id_producto_a"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "id producto a": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "id_producto_a": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "identification producto a": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "identity producto a": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "identifier producto a": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "credential producto a": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "regla.id_seccion_a": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "reglas",
+			          "ConceptualProperty": "id_seccion_a"
+			        }
+			      },
+			      "State": "Generated",
+			      "Visibility": {
+			        "Value": "Hidden"
+			      },
+			      "Terms": [
+			        {
+			          "id seccion a": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "id_seccion_a": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "identification seccion a": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "identity seccion a": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "identifier seccion a": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "credential seccion a": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    },
+			    "regla.id_departamento_a": {
+			      "Definition": {
+			        "Binding": {
+			          "ConceptualEntity": "reglas",
+			          "ConceptualProperty": "id_departamento_a"
+			        }
+			      },
+			      "State": "Generated",
+			      "Terms": [
+			        {
+			          "id departamento a": {
+			            "State": "Generated"
+			          }
+			        },
+			        {
+			          "id_departamento_a": {
+			            "Type": "Noun",
+			            "State": "Generated",
+			            "Weight": 0.99
+			          }
+			        },
+			        {
+			          "identification departamento a": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "identity departamento a": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "identifier departamento a": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.609
+			          }
+			        },
+			        {
+			          "credential departamento a": {
+			            "Type": "Noun",
+			            "State": "Suggested",
+			            "Source": {
+			              "Agent": "Thesaurus"
+			            },
+			            "Weight": 0.591
+			          }
+			        }
+			      ]
+			    }
+			  },
+			  "Relationships": {
+			    "ticket_fecha_trimestre_has_ticket_fecha_me": {
+			      "Binding": {
+			        "ConceptualEntity": "tickets"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ticket.fecha.trimestre": {
+			          "Target": {
+			            "Entity": "ticket.fecha.trimestre"
+			          }
+			        },
+			        "ticket.fecha.me": {
+			          "Target": {
+			            "Entity": "ticket.fecha.me"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ticket.fecha.trimestre"
+			            },
+			            "Object": {
+			              "Role": "ticket.fecha.me"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_have_me"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ticket.fecha.me"
+			            },
+			            "Object": {
+			              "Role": "ticket.fecha.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "me_have_trimestres"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "ticket.fecha.me"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "ticket.fecha.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "me_are_in_trimestres"
+			        }
+			      ]
+			    },
+			    "ticket_fecha_año_has_ticket_fecha_trimestre": {
+			      "Binding": {
+			        "ConceptualEntity": "tickets"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ticket.fecha.año": {
+			          "Target": {
+			            "Entity": "ticket.fecha.año"
+			          }
+			        },
+			        "ticket.fecha.trimestre": {
+			          "Target": {
+			            "Entity": "ticket.fecha.trimestre"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ticket.fecha.año"
+			            },
+			            "Object": {
+			              "Role": "ticket.fecha.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "años_have_trimestres"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ticket.fecha.trimestre"
+			            },
+			            "Object": {
+			              "Role": "ticket.fecha.año"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_have_años"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "ticket.fecha.trimestre"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "ticket.fecha.año"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "trimestres_are_in_años"
+			        }
+			      ]
+			    },
+			    "ticket_fecha_jerarquía_de_fecha_has_ticket_fecha_día": {
+			      "Binding": {
+			        "ConceptualEntity": "tickets"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ticket.fecha.jerarquía_de_fecha": {
+			          "Target": {
+			            "Entity": "ticket.fecha.jerarquía_de_fecha"
+			          }
+			        },
+			        "ticket.fecha.día": {
+			          "Target": {
+			            "Entity": "ticket.fecha.día"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ticket.fecha.jerarquía_de_fecha"
+			            },
+			            "Object": {
+			              "Role": "ticket.fecha.día"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "jerarquía_de_fechas_have_días"
+			        }
+			      ]
+			    },
+			    "ticket_fecha_jerarquía_de_fecha_has_ticket_fecha_me": {
+			      "Binding": {
+			        "ConceptualEntity": "tickets"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ticket.fecha.jerarquía_de_fecha": {
+			          "Target": {
+			            "Entity": "ticket.fecha.jerarquía_de_fecha"
+			          }
+			        },
+			        "ticket.fecha.me": {
+			          "Target": {
+			            "Entity": "ticket.fecha.me"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ticket.fecha.jerarquía_de_fecha"
+			            },
+			            "Object": {
+			              "Role": "ticket.fecha.me"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "jerarquía_de_fechas_have_me"
+			        }
+			      ]
+			    },
+			    "ticket_fecha_jerarquía_de_fecha_has_ticket_fecha_trimestre": {
+			      "Binding": {
+			        "ConceptualEntity": "tickets"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ticket.fecha.jerarquía_de_fecha": {
+			          "Target": {
+			            "Entity": "ticket.fecha.jerarquía_de_fecha"
+			          }
+			        },
+			        "ticket.fecha.trimestre": {
+			          "Target": {
+			            "Entity": "ticket.fecha.trimestre"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ticket.fecha.jerarquía_de_fecha"
+			            },
+			            "Object": {
+			              "Role": "ticket.fecha.trimestre"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "jerarquía_de_fechas_have_trimestres"
+			        }
+			      ]
+			    },
+			    "ticket_fecha_jerarquía_de_fecha_has_ticket_fecha_año": {
+			      "Binding": {
+			        "ConceptualEntity": "tickets"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ticket.fecha.jerarquía_de_fecha": {
+			          "Target": {
+			            "Entity": "ticket.fecha.jerarquía_de_fecha"
+			          }
+			        },
+			        "ticket.fecha.año": {
+			          "Target": {
+			            "Entity": "ticket.fecha.año"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ticket.fecha.jerarquía_de_fecha"
+			            },
+			            "Object": {
+			              "Role": "ticket.fecha.año"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "jerarquía_de_fechas_have_años"
+			        }
+			      ]
+			    },
+			    "ticket_fecha_has_jerarquía_de_fecha": {
+			      "Binding": {
+			        "ConceptualEntity": "tickets"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ticket.fecha": {
+			          "Target": {
+			            "Entity": "ticket.fecha"
+			          }
+			        },
+			        "ticket.fecha.jerarquía_de_fecha": {
+			          "Target": {
+			            "Entity": "ticket.fecha.jerarquía_de_fecha"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ticket.fecha"
+			            },
+			            "Object": {
+			              "Role": "ticket.fecha.jerarquía_de_fecha"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "fechas_have_jerarquía_de_fechas"
+			        }
+			      ]
+			    },
+			    "regla_has_seccione": {
+			      "Binding": {
+			        "ConceptualEntity": "reglas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "regla": {
+			          "Target": {
+			            "Entity": "regla"
+			          }
+			        },
+			        "seccione": {
+			          "Target": {
+			            "Entity": "seccione"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "regla"
+			            },
+			            "Object": {
+			              "Role": "seccione"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "reglas_have_secciones"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "seccione"
+			            },
+			            "Object": {
+			              "Role": "regla"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "secciones_have_reglas"
+			        }
+			      ]
+			    },
+			    "ticket_has_seccione": {
+			      "Binding": {
+			        "ConceptualEntity": "tickets"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ticket": {
+			          "Target": {
+			            "Entity": "ticket"
+			          }
+			        },
+			        "seccione": {
+			          "Target": {
+			            "Entity": "seccione"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ticket"
+			            },
+			            "Object": {
+			              "Role": "seccione"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "tickets_have_secciones"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "seccione"
+			            },
+			            "Object": {
+			              "Role": "ticket"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "secciones_have_tickets"
+			        }
+			      ]
+			    },
+			    "regla_has_id_departamento_a": {
+			      "Binding": {
+			        "ConceptualEntity": "reglas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "regla": {
+			          "Target": {
+			            "Entity": "regla"
+			          }
+			        },
+			        "regla.id_departamento_a": {
+			          "Target": {
+			            "Entity": "regla.id_departamento_a"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "regla"
+			            },
+			            "Object": {
+			              "Role": "regla.id_departamento_a"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "reglas_have_id_departamento_a"
+			        }
+			      ]
+			    },
+			    "regla_has_id_producto_a": {
+			      "Binding": {
+			        "ConceptualEntity": "reglas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "regla": {
+			          "Target": {
+			            "Entity": "regla"
+			          }
+			        },
+			        "regla.id_producto_a": {
+			          "Target": {
+			            "Entity": "regla.id_producto_a"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "regla"
+			            },
+			            "Object": {
+			              "Role": "regla.id_producto_a"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "reglas_have_id_producto_a"
+			        }
+			      ]
+			    },
+			    "regla_has_lift": {
+			      "Binding": {
+			        "ConceptualEntity": "reglas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "regla": {
+			          "Target": {
+			            "Entity": "regla"
+			          }
+			        },
+			        "regla.lift": {
+			          "Target": {
+			            "Entity": "regla.lift"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "regla"
+			            },
+			            "Object": {
+			              "Role": "regla.lift"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "reglas_have_lifts"
+			        }
+			      ]
+			    },
+			    "regla_has_confianza": {
+			      "Binding": {
+			        "ConceptualEntity": "reglas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "regla": {
+			          "Target": {
+			            "Entity": "regla"
+			          }
+			        },
+			        "regla.confianza": {
+			          "Target": {
+			            "Entity": "regla.confianza"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "regla"
+			            },
+			            "Object": {
+			              "Role": "regla.confianza"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "reglas_have_confianzas"
+			        }
+			      ]
+			    },
+			    "regla_has_soporte_a": {
+			      "Binding": {
+			        "ConceptualEntity": "reglas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "regla": {
+			          "Target": {
+			            "Entity": "regla"
+			          }
+			        },
+			        "regla.soporte_a": {
+			          "Target": {
+			            "Entity": "regla.soporte_a"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "regla"
+			            },
+			            "Object": {
+			              "Role": "regla.soporte_a"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "reglas_have_soporte_a"
+			        }
+			      ]
+			    },
+			    "regla_has_consecuente": {
+			      "Binding": {
+			        "ConceptualEntity": "reglas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "regla": {
+			          "Target": {
+			            "Entity": "regla"
+			          }
+			        },
+			        "regla.consecuente": {
+			          "Target": {
+			            "Entity": "regla.consecuente"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "regla"
+			            },
+			            "Object": {
+			              "Role": "regla.consecuente"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "reglas_have_consecuentes"
+			        }
+			      ]
+			    },
+			    "regla_has_antecedente": {
+			      "Binding": {
+			        "ConceptualEntity": "reglas"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "regla": {
+			          "Target": {
+			            "Entity": "regla"
+			          }
+			        },
+			        "regla.antecedente": {
+			          "Target": {
+			            "Entity": "regla.antecedente"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "regla"
+			            },
+			            "Object": {
+			              "Role": "regla.antecedente"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "reglas_have_antecedentes"
+			        }
+			      ]
+			    },
+			    "seccione_has_imagen": {
+			      "Binding": {
+			        "ConceptualEntity": "Secciones"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "seccione": {
+			          "Target": {
+			            "Entity": "seccione"
+			          }
+			        },
+			        "seccione.imagen": {
+			          "Target": {
+			            "Entity": "seccione.imagen"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "seccione"
+			            },
+			            "Object": {
+			              "Role": "seccione.imagen"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "secciones_have_imagens"
+			        }
+			      ]
+			    },
+			    "seccione_has_nombre_seccion": {
+			      "Binding": {
+			        "ConceptualEntity": "Secciones"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "seccione": {
+			          "Target": {
+			            "Entity": "seccione"
+			          }
+			        },
+			        "seccione.nombre_seccion": {
+			          "Target": {
+			            "Entity": "seccione.nombre_seccion"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "seccione"
+			            },
+			            "Object": {
+			              "Role": "seccione.nombre_seccion"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "secciones_have_nombre_seccions"
+			        }
+			      ]
+			    },
+			    "seccione_has_id_seccion": {
+			      "Binding": {
+			        "ConceptualEntity": "Secciones"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "seccione": {
+			          "Target": {
+			            "Entity": "seccione"
+			          }
+			        },
+			        "seccione.id_seccion": {
+			          "Target": {
+			            "Entity": "seccione.id_seccion"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "seccione"
+			            },
+			            "Object": {
+			              "Role": "seccione.id_seccion"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "secciones_have_id_seccions"
+			        }
+			      ]
+			    },
+			    "ticket_has_promedio_de_recuento_de_id_producto_por_id_pedido": {
+			      "Binding": {
+			        "ConceptualEntity": "tickets"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ticket": {
+			          "Target": {
+			            "Entity": "ticket"
+			          }
+			        },
+			        "ticket.promedio_de_recuento_de_id_producto_por_id_pedido": {
+			          "Target": {
+			            "Entity": "ticket.promedio_de_recuento_de_id_producto_por_id_pedido"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ticket"
+			            },
+			            "Object": {
+			              "Role": "ticket.promedio_de_recuento_de_id_producto_por_id_pedido"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "tickets_have_promedio_de_recuento_de_id_producto_por_id_pedido"
+			        }
+			      ]
+			    },
+			    "ticket_has_promedio_de_recuento_de_id_pedido_por_cantidad": {
+			      "Binding": {
+			        "ConceptualEntity": "tickets"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ticket": {
+			          "Target": {
+			            "Entity": "ticket"
+			          }
+			        },
+			        "ticket.promedio_de_recuento_de_id_pedido_por_cantidad": {
+			          "Target": {
+			            "Entity": "ticket.promedio_de_recuento_de_id_pedido_por_cantidad"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ticket"
+			            },
+			            "Object": {
+			              "Role": "ticket.promedio_de_recuento_de_id_pedido_por_cantidad"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "tickets_have_promedio_de_recuento_de_id_pedido_por_cantidad"
+			        }
+			      ]
+			    },
+			    "ticket_has_promedio_de_recuento_de_id_pedido_por_id_producto": {
+			      "Binding": {
+			        "ConceptualEntity": "tickets"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ticket": {
+			          "Target": {
+			            "Entity": "ticket"
+			          }
+			        },
+			        "ticket.promedio_de_recuento_de_id_pedido_por_id_producto": {
+			          "Target": {
+			            "Entity": "ticket.promedio_de_recuento_de_id_pedido_por_id_producto"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ticket"
+			            },
+			            "Object": {
+			              "Role": "ticket.promedio_de_recuento_de_id_pedido_por_id_producto"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "tickets_have_promedio_de_recuento_de_id_pedido_por_id_producto"
+			        }
+			      ]
+			    },
+			    "ticket_has_ticket_medio_por_cliente": {
+			      "Binding": {
+			        "ConceptualEntity": "tickets"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ticket": {
+			          "Target": {
+			            "Entity": "ticket"
+			          }
+			        },
+			        "ticket.ticket_medio_por_cliente": {
+			          "Target": {
+			            "Entity": "ticket.ticket_medio_por_cliente"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ticket"
+			            },
+			            "Object": {
+			              "Role": "ticket.ticket_medio_por_cliente"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "tickets_have_ticket_medio_por_cliente"
+			        }
+			      ]
+			    },
+			    "ticket_has_ticket_medio_pedido": {
+			      "Binding": {
+			        "ConceptualEntity": "tickets"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ticket": {
+			          "Target": {
+			            "Entity": "ticket"
+			          }
+			        },
+			        "ticket.ticket_medio_pedido": {
+			          "Target": {
+			            "Entity": "ticket.ticket_medio_pedido"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ticket"
+			            },
+			            "Object": {
+			              "Role": "ticket.ticket_medio_pedido"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "tickets_have_ticket_medio_pedido"
+			        }
+			      ]
+			    },
+			    "ticket_has_PR_unitario": {
+			      "Binding": {
+			        "ConceptualEntity": "tickets"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ticket": {
+			          "Target": {
+			            "Entity": "ticket"
+			          }
+			        },
+			        "ticket.PR_unitario": {
+			          "Target": {
+			            "Entity": "ticket.PR_unitario"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ticket"
+			            },
+			            "Object": {
+			              "Role": "ticket.PR_unitario"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "tickets_have_PR_unitarios"
+			        }
+			      ]
+			    },
+			    "ticket_has_nombre_dia": {
+			      "Binding": {
+			        "ConceptualEntity": "tickets"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ticket": {
+			          "Target": {
+			            "Entity": "ticket"
+			          }
+			        },
+			        "ticket.nombre_dia": {
+			          "Target": {
+			            "Entity": "ticket.nombre_dia"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ticket"
+			            },
+			            "Object": {
+			              "Role": "ticket.nombre_dia"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "tickets_have_nombre_dias"
+			        }
+			      ]
+			    },
+			    "ticket_has_precio_total": {
+			      "Binding": {
+			        "ConceptualEntity": "tickets"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ticket": {
+			          "Target": {
+			            "Entity": "ticket"
+			          }
+			        },
+			        "ticket.precio_total": {
+			          "Target": {
+			            "Entity": "ticket.precio_total"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ticket"
+			            },
+			            "Object": {
+			              "Role": "ticket.precio_total"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "tickets_have_precio_totals"
+			        },
+			        {
+			          "Adjective": {
+			            "Subject": {
+			              "Role": "ticket"
+			            },
+			            "Adjectives": [
+			              {
+			                "expensive": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Antonyms": [
+			              {
+			                "cheap": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Measurement": {
+			              "Role": "ticket.precio_total"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "precio_total_indicates_how_expensive_tickets_are"
+			        }
+			      ]
+			    },
+			    "ticket_has_cantidad": {
+			      "Binding": {
+			        "ConceptualEntity": "tickets"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ticket": {
+			          "Target": {
+			            "Entity": "ticket"
+			          }
+			        },
+			        "ticket.cantidad": {
+			          "Target": {
+			            "Entity": "ticket.cantidad"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ticket"
+			            },
+			            "Object": {
+			              "Role": "ticket.cantidad"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "tickets_have_cantidads"
+			        }
+			      ]
+			    },
+			    "ticket_has_precio_unitario": {
+			      "Binding": {
+			        "ConceptualEntity": "tickets"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ticket": {
+			          "Target": {
+			            "Entity": "ticket"
+			          }
+			        },
+			        "ticket.precio_unitario": {
+			          "Target": {
+			            "Entity": "ticket.precio_unitario"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ticket"
+			            },
+			            "Object": {
+			              "Role": "ticket.precio_unitario"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "tickets_have_precio_unitarios"
+			        }
+			      ]
+			    },
+			    "ticket_has_nombre_producto": {
+			      "Binding": {
+			        "ConceptualEntity": "tickets"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ticket": {
+			          "Target": {
+			            "Entity": "ticket"
+			          }
+			        },
+			        "ticket.nombre_producto": {
+			          "Target": {
+			            "Entity": "ticket.nombre_producto"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ticket"
+			            },
+			            "Object": {
+			              "Role": "ticket.nombre_producto"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "tickets_have_nombre_productos"
+			        }
+			      ]
+			    },
+			    "ticket_has_id_producto": {
+			      "Binding": {
+			        "ConceptualEntity": "tickets"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ticket": {
+			          "Target": {
+			            "Entity": "ticket"
+			          }
+			        },
+			        "ticket.id_producto": {
+			          "Target": {
+			            "Entity": "ticket.id_producto"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ticket"
+			            },
+			            "Object": {
+			              "Role": "ticket.id_producto"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "tickets_have_id_productos"
+			        }
+			      ]
+			    },
+			    "ticket_has_id_departamento": {
+			      "Binding": {
+			        "ConceptualEntity": "tickets"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ticket": {
+			          "Target": {
+			            "Entity": "ticket"
+			          }
+			        },
+			        "ticket.id_departamento": {
+			          "Target": {
+			            "Entity": "ticket.id_departamento"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ticket"
+			            },
+			            "Object": {
+			              "Role": "ticket.id_departamento"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "tickets_have_id_departamentos"
+			        }
+			      ]
+			    },
+			    "ticket_has_hora": {
+			      "Binding": {
+			        "ConceptualEntity": "tickets"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ticket": {
+			          "Target": {
+			            "Entity": "ticket"
+			          }
+			        },
+			        "ticket.hora": {
+			          "Target": {
+			            "Entity": "ticket.hora"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ticket"
+			            },
+			            "Object": {
+			              "Role": "ticket.hora"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "tickets_have_horas"
+			        }
+			      ]
+			    },
+			    "ticket_has_fecha": {
+			      "Binding": {
+			        "ConceptualEntity": "tickets"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ticket": {
+			          "Target": {
+			            "Entity": "ticket"
+			          }
+			        },
+			        "ticket.fecha": {
+			          "Target": {
+			            "Entity": "ticket.fecha"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ticket"
+			            },
+			            "Object": {
+			              "Role": "ticket.fecha"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "tickets_have_fechas"
+			        }
+			      ]
+			    },
+			    "ticket_has_id_cliente": {
+			      "Binding": {
+			        "ConceptualEntity": "tickets"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ticket": {
+			          "Target": {
+			            "Entity": "ticket"
+			          }
+			        },
+			        "ticket.id_cliente": {
+			          "Target": {
+			            "Entity": "ticket.id_cliente"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ticket"
+			            },
+			            "Object": {
+			              "Role": "ticket.id_cliente"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "tickets_have_id_clientes"
+			        }
+			      ]
+			    },
+			    "ticket_has_id_pedido": {
+			      "Binding": {
+			        "ConceptualEntity": "tickets"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ticket": {
+			          "Target": {
+			            "Entity": "ticket"
+			          }
+			        },
+			        "ticket.id_pedido": {
+			          "Target": {
+			            "Entity": "ticket.id_pedido"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ticket"
+			            },
+			            "Object": {
+			              "Role": "ticket.id_pedido"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "tickets_have_id_pedidos"
+			        }
+			      ]
+			    },
+			    "ticket_fecha_me_has_ticket_fecha_día": {
+			      "Binding": {
+			        "ConceptualEntity": "tickets"
+			      },
+			      "State": "Generated",
+			      "Roles": {
+			        "ticket.fecha.me": {
+			          "Target": {
+			            "Entity": "ticket.fecha.me"
+			          }
+			        },
+			        "ticket.fecha.día": {
+			          "Target": {
+			            "Entity": "ticket.fecha.día"
+			          }
+			        }
+			      },
+			      "Phrasings": [
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ticket.fecha.me"
+			            },
+			            "Object": {
+			              "Role": "ticket.fecha.día"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "me_have_días"
+			        },
+			        {
+			          "Attribute": {
+			            "Subject": {
+			              "Role": "ticket.fecha.día"
+			            },
+			            "Object": {
+			              "Role": "ticket.fecha.me"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "días_have_me"
+			        },
+			        {
+			          "Preposition": {
+			            "Subject": {
+			              "Role": "ticket.fecha.día"
+			            },
+			            "Prepositions": [
+			              {
+			                "in": {
+			                  "State": "Generated"
+			                }
+			              }
+			            ],
+			            "Object": {
+			              "Role": "ticket.fecha.me"
+			            }
+			          },
+			          "State": "Generated",
+			          "Weight": 0.99,
+			          "ID": "días_are_in_me"
+			        }
+			      ]
+			    }
+			  },
+			  "Agents": {
+			    "Internal": {
+			      "Version": "1.1.0"
+			    }
+			  }
+			}
+		contentType: json
+

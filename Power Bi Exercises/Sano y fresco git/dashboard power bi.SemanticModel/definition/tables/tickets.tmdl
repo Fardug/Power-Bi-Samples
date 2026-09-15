@@ -1,0 +1,230 @@
+table tickets
+	lineageTag: a2c3240c-eeff-4c38-8fd4-ece7bec397bd
+
+	measure 'Ticket Medio Pedido' =
+			
+			AVERAGEX(
+				KEEPFILTERS(VALUES('tickets'[id_pedido])),
+				CALCULATE(SUM('tickets'[precio_total]))
+			)
+		formatString: #,0.00\ "€";-#,0.00\ "€";#,0.00\ "€"
+		lineageTag: 451491bc-8bb6-43f2-b89c-e3999ce6aae1
+
+		extendedProperty MeasureTemplate =
+				{
+				  "version": 0,
+				  "daxTemplateName": "AveragePerCategory"
+				}
+
+		changedProperty = FormatString
+
+	measure 'Ticket medio por cliente' =
+			
+			AVERAGEX(
+				KEEPFILTERS(VALUES('tickets'[id_cliente])),
+				CALCULATE(SUM('tickets'[precio_total]))
+			)
+		formatString: #,0.00\ "€";-#,0.00\ "€";#,0.00\ "€"
+		lineageTag: 1d6d0d21-8839-4640-ae9b-166c35df9ae5
+
+		extendedProperty MeasureTemplate =
+				{
+				  "version": 0,
+				  "daxTemplateName": "AveragePerCategory"
+				}
+
+		changedProperty = FormatString
+
+	measure 'Promedio de Recuento de id_pedido por id_producto' =
+			
+			AVERAGEX(
+				KEEPFILTERS(VALUES('tickets'[id_producto])),
+				CALCULATE(DISTINCTCOUNT('tickets'[id_pedido]))
+			)
+		formatString: 0
+		lineageTag: 668d406c-6ace-4b7d-a885-52a2fc2d9bb6
+
+		extendedProperty MeasureTemplate =
+				{
+				  "version": 0,
+				  "daxTemplateName": "AveragePerCategory"
+				}
+
+		changedProperty = FormatString
+
+	measure 'Promedio de Recuento de id_pedido por cantidad' =
+			
+			AVERAGEX(
+				KEEPFILTERS(VALUES('tickets'[cantidad])),
+				CALCULATE(DISTINCTCOUNT('tickets'[id_pedido]))
+			)
+		formatString: 0
+		lineageTag: 88a725df-fa7b-4644-8fb0-bc176901e27a
+
+		extendedProperty MeasureTemplate =
+				{
+				  "version": 0,
+				  "daxTemplateName": "AveragePerCategory"
+				}
+
+		changedProperty = FormatString
+
+	measure 'Promedio de Recuento de id_producto por id_pedido' =
+			
+			AVERAGEX(
+				KEEPFILTERS(VALUES('tickets'[id_pedido])),
+				CALCULATE(DISTINCTCOUNT('tickets'[id_producto]))
+			)
+		formatString: 0
+		lineageTag: 2d64e018-8bee-4c78-9bfb-c7025f923b84
+
+		extendedProperty MeasureTemplate =
+				{
+				  "version": 0,
+				  "daxTemplateName": "AveragePerCategory"
+				}
+
+		changedProperty = FormatString
+
+	column id_pedido
+		dataType: int64
+		formatString: 0
+		lineageTag: f512a5bb-a79c-4ff2-a154-4e65f11113c6
+		summarizeBy: sum
+		sourceColumn: id_pedido
+
+		annotation SummarizationSetBy = Automatic
+
+	column id_cliente
+		dataType: int64
+		formatString: 0
+		lineageTag: 8410c020-e2c0-4e16-8e74-16ce51e6fc35
+		summarizeBy: sum
+		sourceColumn: id_cliente
+
+		annotation SummarizationSetBy = Automatic
+
+	column fecha
+		dataType: dateTime
+		formatString: dd/mm/yyyy
+		lineageTag: 53272be0-2042-4311-99b0-ceb396b2ab95
+		summarizeBy: none
+		sourceColumn: fecha
+
+		variation Variación
+			isDefault
+			relationship: e4b2def8-e24b-43ec-ac00-3f8365ad67e2
+			defaultHierarchy: LocalDateTable_ac685377-336f-4f41-b10a-80f6c7144865.'Jerarquía de fechas'
+
+		changedProperty = DataType
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation UnderlyingDateTimeDataType = Date
+
+		annotation PBI_FormatHint = {"isDateTimeCustom":true}
+
+	column hora
+		dataType: string
+		lineageTag: d0b647b9-efcb-46e8-ac84-3c6b8174d352
+		summarizeBy: none
+		sourceColumn: hora
+
+		annotation SummarizationSetBy = Automatic
+
+	column id_departamento
+		dataType: int64
+		formatString: 0
+		lineageTag: e9956049-6013-431f-8437-353f27ebce30
+		summarizeBy: sum
+		sourceColumn: id_departamento
+
+		annotation SummarizationSetBy = Automatic
+
+	column id_seccion
+		dataType: int64
+		formatString: 0
+		lineageTag: 41da09ce-d1b3-4db5-bad8-95779cbfee33
+		summarizeBy: none
+		sourceColumn: id_seccion
+
+		annotation SummarizationSetBy = Automatic
+
+	column id_producto
+		dataType: int64
+		formatString: 0
+		lineageTag: c2aaeb4e-84f4-4771-8582-9a9a744fd742
+		summarizeBy: sum
+		sourceColumn: id_producto
+
+		annotation SummarizationSetBy = Automatic
+
+	column nombre_producto
+		dataType: string
+		lineageTag: 8c297487-10a4-4000-bce2-1518a37f3f32
+		summarizeBy: none
+		sourceColumn: nombre_producto
+
+		annotation SummarizationSetBy = Automatic
+
+	column precio_unitario
+		dataType: double
+		formatString: 0
+		lineageTag: e2176dfe-c6e4-4cfa-bc3e-f3f40ae3ccae
+		summarizeBy: sum
+		sourceColumn: precio_unitario
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isDecimal":true}
+
+	column cantidad
+		dataType: string
+		lineageTag: 9d3816ab-0ce9-47ec-ba86-3eedc07fa86e
+		summarizeBy: none
+		sourceColumn: cantidad
+
+		annotation SummarizationSetBy = Automatic
+
+	column precio_total
+		dataType: double
+		formatString: #,0.00\ "€";-#,0.00\ "€";#,0.00\ "€"
+		lineageTag: 5f78a61b-7c05-4e1f-83c8-6edd248f5204
+		summarizeBy: sum
+		sourceColumn: precio_total
+
+		annotation SummarizationSetBy = Automatic
+
+	column Nombre_dia = FORMAT(tickets[fecha],"dddd")
+		lineageTag: 51e6f5e5-f594-4a81-b674-5f1c60468126
+		summarizeBy: none
+
+		annotation SummarizationSetBy = Automatic
+
+	column PR_unitario = DIVIDE(tickets[precio_unitario],100)
+		lineageTag: 7a65749b-f401-403e-b56a-db0322b8f39a
+		summarizeBy: sum
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	partition tickets = m
+		mode: import
+		source =
+				let
+				    Origen = Csv.Document(File.Contents("C:\Users\LENOVO\Documents\sanoyfresco\tickets\tickets.csv"),[Delimiter=",", Columns=11, Encoding=65001, QuoteStyle=QuoteStyle.None]),
+				    #"Encabezados promovidos" = Table.PromoteHeaders(Origen, [PromoteAllScalars=true]),
+				    #"Tipo cambiado con configuración regional" = Table.TransformColumnTypes(#"Encabezados promovidos", {{"precio_unitario", type number}}, "en-AT"),
+				    #"Tipo cambiado con configuración regional1" = Table.TransformColumnTypes(#"Tipo cambiado con configuración regional", {{"precio_total", type number}}, "en-US"),
+				    #"Tipo cambiado con configuración regional2" = Table.TransformColumnTypes(#"Tipo cambiado con configuración regional1", {{"precio_unitario", type number}}, "en-US"),
+				    #"Tipo cambiado con configuración regional3" = Table.TransformColumnTypes(#"Tipo cambiado con configuración regional2", {{"precio_unitario", type number}}, "en-US"),
+				    #"Tipo cambiado" = Table.TransformColumnTypes(#"Tipo cambiado con configuración regional3",{{"id_departamento", Int64.Type}, {"id_seccion", Int64.Type}, {"id_producto", Int64.Type}, {"id_pedido", Int64.Type}, {"id_cliente", Int64.Type}}),
+				    #"Tipo cambiado con configuración regional4" = Table.TransformColumnTypes(#"Tipo cambiado", {{"precio_total", type number}}, "en-US")
+				in
+				    #"Tipo cambiado con configuración regional4"
+
+	annotation PBI_NavigationStepName = Navegación
+
+	annotation PBI_ResultType = Table
+

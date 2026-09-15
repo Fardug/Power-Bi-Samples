@@ -1,0 +1,13 @@
+relationship e4b2def8-e24b-43ec-ac00-3f8365ad67e2
+	joinOnDateBehavior: datePartOnly
+	fromColumn: tickets.fecha
+	toColumn: LocalDateTable_ac685377-336f-4f41-b10a-80f6c7144865.Date
+
+relationship AutoDetected_b27d97b6-d6c0-48db-8695-3c9f8d314f3a
+	fromColumn: tickets.id_seccion
+	toColumn: Secciones.id_seccion
+
+relationship 3eb91632-fb46-9dda-4077-f2d6643e977d
+	fromColumn: reglas.id_seccion_a
+	toColumn: Secciones.id_seccion
+

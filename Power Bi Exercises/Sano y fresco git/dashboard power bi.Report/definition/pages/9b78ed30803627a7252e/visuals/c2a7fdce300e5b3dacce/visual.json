@@ -1,0 +1,141 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/item/report/definition/visualContainer/2.12.0/schema.json",
+  "name": "c2a7fdce300e5b3dacce",
+  "position": {
+    "x": 412.5,
+    "y": 300,
+    "z": 19000,
+    "height": 725,
+    "width": 782.5,
+    "tabOrder": 19000
+  },
+  "visual": {
+    "visualType": "ForceGraph1449359463895",
+    "query": {
+      "queryState": {
+        "Source": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "reglas"
+                    }
+                  },
+                  "Property": "antecedente"
+                }
+              },
+              "queryRef": "reglas.antecedente",
+              "nativeQueryRef": "antecedente",
+              "active": true
+            }
+          ]
+        },
+        "Target": {
+          "projections": [
+            {
+              "field": {
+                "Column": {
+                  "Expression": {
+                    "SourceRef": {
+                      "Entity": "reglas"
+                    }
+                  },
+                  "Property": "consecuente"
+                }
+              },
+              "queryRef": "reglas.consecuente",
+              "nativeQueryRef": "consecuente",
+              "active": true
+            }
+          ]
+        },
+        "Weight": {
+          "projections": [
+            {
+              "field": {
+                "Aggregation": {
+                  "Expression": {
+                    "Column": {
+                      "Expression": {
+                        "SourceRef": {
+                          "Entity": "reglas"
+                        }
+                      },
+                      "Property": "lift"
+                    }
+                  },
+                  "Function": 0
+                }
+              },
+              "queryRef": "Sum(reglas.lift)",
+              "nativeQueryRef": "Suma de lift"
+            }
+          ]
+        }
+      },
+      "sortDefinition": {
+        "sort": [
+          {
+            "field": {
+              "Aggregation": {
+                "Expression": {
+                  "Column": {
+                    "Expression": {
+                      "SourceRef": {
+                        "Entity": "reglas"
+                      }
+                    },
+                    "Property": "lift"
+                  }
+                },
+                "Function": 0
+              }
+            },
+            "direction": "Descending"
+          }
+        ],
+        "isDefaultSort": true
+      }
+    },
+    "objects": {
+      "links": [
+        {
+          "properties": {
+            "showArrow": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            },
+            "showLabel": {
+              "expr": {
+                "Literal": {
+                  "Value": "true"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "visualContainerObjects": {
+      "title": [
+        {
+          "properties": {
+            "show": {
+              "expr": {
+                "Literal": {
+                  "Value": "false"
+                }
+              }
+            }
+          }
+        }
+      ]
+    },
+    "drillFilterOtherVisuals": true
+  }
+}
